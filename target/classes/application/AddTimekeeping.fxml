@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddTimekeepingController">
+   <bottom>
+      <Pane prefHeight="554.0" prefWidth="757.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="133.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnThem" layoutX="315.0" layoutY="408.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="99.0" style="-fx-background-color: #068751;" text="Insert" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Pane prefHeight="83.0" prefWidth="740.0" style="-fx-background-color: #068751;">
+               <children>
+                  <Text fill="WHITE" layoutX="243.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert Timekeeping">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Label layoutX="27.0" layoutY="104.0" text="Mã chấm công:" />
+            <Label layoutX="25.0" layoutY="141.0" text="Mã nhân viên" />
+            <Label layoutX="20.0" layoutY="207.0" text="Tháng chấm công" />
+            <Label layoutX="23.0" layoutY="236.0" text="Số ngày làm việc" />
+            <Label layoutX="22.0" layoutY="304.0" text="Số ngày trễ" />
+            <Label layoutX="26.0" layoutY="269.0" text="Số ngày nghỉ" />
+            <Label layoutX="377.0" layoutY="104.0" text="Chi tiết" />
+            <Label layoutX="24.0" layoutY="340.0" text="Số giờ làm thêm" />
+            <TextField fx:id="txtSoNgayLamViec" layoutX="154.0" layoutY="241.0" prefHeight="25.0" prefWidth="199.0" />
+            <TextField fx:id="txtSoNgayNghi" layoutX="154.0" layoutY="265.0" prefHeight="25.0" prefWidth="199.0" />
+            <ComboBox fx:id="cmbMaNhanVien" layoutX="155.0" layoutY="137.0" prefHeight="25.0" prefWidth="196.0" />
+            <TextArea fx:id="txtChiTiet" layoutX="426.0" layoutY="103.0" prefHeight="269.0" prefWidth="270.0" />
+            <TextField fx:id="txtSoNgayTre" layoutX="154.0" layoutY="300.0" prefHeight="25.0" prefWidth="199.0" />
+            <TextField fx:id="txtMaChamCong" layoutX="154.0" layoutY="100.0" prefHeight="25.0" prefWidth="199.0" />
+            <TextField fx:id="txtSoGioiLamThem" layoutX="154.0" layoutY="336.0" prefHeight="25.0" prefWidth="199.0" />
+            <TextField fx:id="txtNamChamCong" layoutX="154.0" layoutY="170.0" prefHeight="25.0" prefWidth="199.0" />
+            <TextField fx:id="txtThangChamCong" layoutX="154.0" layoutY="203.0" prefHeight="25.0" prefWidth="199.0" />
+            <Label layoutX="24.0" layoutY="174.0" text="Năm chấm công" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.table_columns {
+	-fx-background-color: #5CB08E;
+	-fx-text-fill: #fff;
+	-fx-border-color: white; 
+	-fx-font-weight: bold; 
+	-fx-alignment: CENTER
+}
+
+.table_columns .label {
+	-fx-background-color: #068751;
+	-fx-text-fill: #fff;
+	-fx-font-family: 'Roboto';
+	-fx-font-size: 14px;
+}

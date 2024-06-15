@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateBaoCaoTuyenDungController">
+   <center>
+      <Pane prefHeight="554.0" prefWidth="757.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="133.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnUpdate" layoutX="321.0" layoutY="475.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="99.0" style="-fx-background-color: #068751;" text="Update" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Pane prefHeight="83.0" prefWidth="740.0" style="-fx-background-color: #068751;">
+               <children>
+                  <Text fill="WHITE" layoutX="165.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Ongoing Recruitments">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Label layoutX="27.0" layoutY="141.0" text="Mã tuyển dụng" />
+            <TextField fx:id="txtMaTuyenDung" layoutX="143.0" layoutY="137.0" prefHeight="25.0" prefWidth="199.0" />
+            <Label layoutX="27.0" layoutY="206.0" text="Vị trí tuyển dụng" />
+            <Label layoutX="27.0" layoutY="268.0" text="Yêu cầu trình độ" />
+            <TextField fx:id="txtTrinhDo" layoutX="143.0" layoutY="264.0" prefHeight="25.0" prefWidth="46.0" />
+            <Label layoutX="27.0" layoutY="325.0" text="Yêu cầu giới tính" />
+            <Label layoutX="397.0" layoutY="141.0" text="Độ tuổi:" />
+            <TextField fx:id="txtDoTuoiMin" layoutX="478.0" layoutY="137.0" prefHeight="25.0" prefWidth="44.0" />
+            <Label layoutX="393.0" layoutY="206.0" text="Số lượng" />
+            <TextField fx:id="txtSoLuong" layoutX="466.0" layoutY="202.0" prefHeight="25.0" prefWidth="199.0" />
+            <Label layoutX="365.0" layoutY="277.0" text="Thời hạn nộp hồ sơ" />
+            <DatePicker fx:id="dtpThoiHanNopHoSo" layoutX="478.0" layoutY="273.0" />
+            <Label layoutX="364.0" layoutY="325.0" text="Mức lương tối thiểu" />
+            <TextField fx:id="txtMucLuongToiThieu" layoutX="478.0" layoutY="321.0" prefHeight="25.0" prefWidth="144.0" />
+            <Label layoutX="363.0" layoutY="375.0" text="Mức lương tối đa" />
+            <TextField fx:id="txtMucLuongToiDa" layoutX="478.0" layoutY="371.0" prefHeight="25.0" prefWidth="141.0" />
+            <ComboBox fx:id="cmbYeuCauGioiTinh" layoutX="143.0" layoutY="321.0" prefWidth="150.0" />
+            <Label layoutX="200.0" layoutY="265.0" prefHeight="24.0" prefWidth="36.0" text="/ 12" />
+            <Label layoutX="452.0" layoutY="141.0" text="Từ" />
+            <Label layoutX="529.0" layoutY="141.0" text="đến" />
+            <TextField fx:id="txtDoTuoiMax" layoutX="556.0" layoutY="137.0" prefHeight="25.0" prefWidth="44.0" />
+            <Label layoutX="639.0" layoutY="325.0" text="VND" />
+            <Label layoutX="639.0" layoutY="375.0" text="VND" />
+            <ComboBox fx:id="cmbViTriTuyenDung" layoutX="149.0" layoutY="211.0" prefHeight="25.0" prefWidth="186.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

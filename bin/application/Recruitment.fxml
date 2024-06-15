@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RecruitmentController">
+   <top>
+      <Pane prefHeight="70.0" prefWidth="900.0" style="-fx-background-color: #068650;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="51.0" layoutY="20.0" text="QVP HRM System" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="630.0" prefWidth="350.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#d9d9d9" layoutX="174.0" layoutY="78.0" radius="64.0" stroke="#0dbd9a00" strokeType="INSIDE" />
+            <Label layoutX="145.0" layoutY="154.0" text="Name" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.0" layoutY="185.0" text="Role" textFill="#068650">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Line endX="154.0" layoutX="147.0" layoutY="232.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="3.0" />
+            <Pane layoutX="76.0" layoutY="265.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#MainMenuScreen" text="Main Menu" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="282.0" radiusX="26.0" radiusY="26.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="308.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #068751;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" text="Recruitment" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#068650" layoutX="59.0" layoutY="325.0" radiusX="26.0" radiusY="26.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="350.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#EmployeeScreen" text="Employee" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="367.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="391.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#ContractScreen" text="Contract" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="408.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="432.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#DepartmentScreen" text="Department" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="473.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#TimekeepingScreen" text="Timekeeping" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="490.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="449.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="514.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#Salary_BonusScreen" text="Salary &amp; Bonus" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="531.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="555.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#AccountScreen" text="Account" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="572.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <AnchorPane onMousePressed="#initialize" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+             <Button fx:id="btnUpdate" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="650.0" layoutY="1.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #6cd818;" text="Update" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDelete" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="748.0" layoutY="1.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #f30000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="47.0" layoutY="-2.0" text="Ongoing recruitments" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAdd" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="552.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#loadBaoCaoTuyenDung" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #068650;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="47.0" layoutY="156.0" text="Recruitment Phases" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="360.0" text="Candidates" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+           <TableView fx:id="tableViewBAOCAOTUYENDUNG" layoutX="47.0" layoutY="38.0" prefHeight="102.0" prefWidth="783.0">
+    <columns>
+        <TableColumn fx:id="maTuyenDung" prefWidth="75.0" styleClass="table_columns" text="RID" />
+        <TableColumn fx:id="chuVu" prefWidth="75.0" styleClass="table_columns" text="Role" />
+        <TableColumn fx:id="hocVan" prefWidth="75.0" styleClass="table_columns" text="Edu." />
+        <TableColumn fx:id="yeuCauGioiTinh" prefWidth="75.0" styleClass="table_columns" text="Gender" />
+        <TableColumn fx:id="yeuCauDoTuoi" prefWidth="75.0" styleClass="table_columns" text="Age" />
+        <TableColumn fx:id="soLuongCanTuyen" prefWidth="75.0" styleClass="table_columns" text="Quantity" />
+        <TableColumn fx:id="hanNopHoSo" prefWidth="118.39999389648438" styleClass="table_columns" text="Date Expire" />
+        <TableColumn fx:id="mucLuongToiThieu" prefWidth="93.60003662109375" styleClass="table_columns" text="Min Salary" />
+        <TableColumn fx:id="mucLuongToiDa" prefWidth="120.0" styleClass="table_columns" text="MaxSalary" />
+    </columns>
+</TableView>
+            <TableView fx:id="tableViewDotTuyenDung" layoutX="47.0" layoutY="187.0" prefHeight="158.0" prefWidth="783.0">
+               <columns>
+                  <TableColumn fx:id="maTuyenDung2" prefWidth="219.20003509521484" styleClass="table_columns" text="RID" />
+                  <TableColumn fx:id="maNhanVien" prefWidth="141.5999755859375" styleClass="table_columns" text="Employee ID" />
+                  <TableColumn fx:id="ngayTuyenDung" prefWidth="423.1999206542969" styleClass="table_columns" text="Recruitment Date" />
+               </columns>
+            </TableView>
+            <TableView fx:id="tableViewUngVien" layoutX="43.0" layoutY="406.0" prefHeight="234.0" prefWidth="822.0">
+               <columns>
+                  <TableColumn fx:id="matTuyenDung3" maxWidth="91.19998931884766" prefWidth="76.0" styleClass="table_columns" text="RID" />
+                  <TableColumn fx:id="maUngVien" maxWidth="123.20001983642578" minWidth="9.60003662109375" prefWidth="84.8000259399414" styleClass="table_columns" text="Cand. ID" />
+                  <TableColumn fx:id="CCCD" prefWidth="56.800018310546875" styleClass="table_columns" text="Citixen ID" />
+                  <TableColumn fx:id="hoTen" maxWidth="119.199951171875" prefWidth="59.20001220703125" styleClass="table_columns" text="Name" />
+                  <TableColumn fx:id="gioiTinh2" maxWidth="129.60003662109375" prefWidth="59.2000732421875" styleClass="table_columns" text="Gender" />
+                  <TableColumn fx:id="ngaySinh" maxWidth="164.00003051757812" prefWidth="109.60003662109375" styleClass="table_columns" text="Date of birth" />
+                  <TableColumn fx:id="diaChi" maxWidth="179.20004272460938" prefWidth="75.99996948242188" styleClass="table_columns" text="Address" />
+                  <TableColumn fx:id="SDT" maxWidth="196.00006103515625" prefWidth="72.800048828125" styleClass="table_columns" text="Phone" />
+                  <TableColumn fx:id="email" maxWidth="211.20001220703125" prefWidth="68.800048828125" styleClass="table_columns" text="Email" />
+                  <TableColumn fx:id="maTrinhDo" maxWidth="198.4000244140625" prefWidth="93.60003662109375" styleClass="table_columns" text="Pos.ID" />
+                  <TableColumn fx:id="trangThai" maxWidth="188.80002441406248" prefWidth="76.0" styleClass="table_columns" text="Stat." />
+                  
+               </columns>
+            </TableView>
+            <Button fx:id="btnTuyen" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="772.0" layoutY="364.0" mnemonicParsing="false" onMouseClicked="#loadBaoCaoTuyenDung" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #068650;" text="Tuyển" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnReload" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="470.0" layoutY="364.0" mnemonicParsing="false" onMouseClicked="#loadBaoCaoTuyenDung" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #068650;" text="ReLoad" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnThemUngVien" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="568.0" layoutY="364.0" mnemonicParsing="false" onMouseClicked="#loadBaoCaoTuyenDung" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #068650;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnXoaUngVien" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="666.0" layoutY="364.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #f30000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+           
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

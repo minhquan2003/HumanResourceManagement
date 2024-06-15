@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="733.0" prefWidth="1246.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AccountController">
+   <top>
+      <Pane focusTraversable="true" prefHeight="75.0" prefWidth="1246.0" style="-fx-background-color: #068751;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="51.0" layoutY="20.0" text="QVP HRM System" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="658.0" prefWidth="326.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#d9d9d9" layoutX="174.0" layoutY="78.0" radius="64.0" stroke="#0dbd9a00" strokeType="INSIDE" />
+            <Label layoutX="145.0" layoutY="154.0" text="Name" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.0" layoutY="185.0" text="Role" textFill="#068650">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Line endX="154.0" layoutX="147.0" layoutY="232.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="3.0" />
+            <Pane layoutX="76.0" layoutY="265.0" prefHeight="36.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#MainMenuScreen" text="Main Menu" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="282.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="308.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#RecruitmentScreen" text="Recruitment" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="325.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="350.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#EmployeeScreen" text="Employee" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="367.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="391.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#ContractScreen" text="Contract" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="408.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="432.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#DepartmentScreen" text="Department" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="473.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#TimekeepingScreen" text="Timekeeping" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="449.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="490.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Ellipse fill="#d9d9d9" layoutX="59.0" layoutY="531.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="514.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#Salary_BonusScreen" text="Salary &amp; Bonus" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Ellipse fill="#068751" layoutX="59.0" layoutY="572.0" radiusX="26.0" radiusY="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Pane layoutX="76.0" layoutY="555.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #068751;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" text="Account" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <AnchorPane focusTraversable="true" prefHeight="667.0" prefWidth="906.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableViewTaiKhoan" editable="true" layoutX="26.0" layoutY="80.0" prefHeight="554.0" prefWidth="860.0" style="-fx-background-radius: 5px; -fx-border-radius: 5px; -fx-text-fill: white; -fx-font-weight: bold">
+              <columns>
+                <TableColumn fx:id="maTaiKhoan" editable="false" prefWidth="204.80002403259277" styleClass="table_columns" text="Account ID" />
+                <TableColumn fx:id="username" editable="false" prefWidth="210.4000244140625" styleClass="table_columns" text="Username" />
+                  <TableColumn fx:id="maNhomQuyen" editable="false" prefWidth="240.79995727539062" styleClass="table_columns" text="Role Group ID" />
+                  <TableColumn fx:id="resetPasswordColumn" editable="false" prefWidth="204.80010986328125" style="-fx-alignment: CENTER" text="" />
+              </columns>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" height="2.28" radius="1.225" width="4.62">
+                     <color>
+                        <Color red="0.8509804010391235" green="0.8509804010391235" blue="0.8509804010391235" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TableView>
+            <Label layoutX="33.0" layoutY="24.0" text="Account" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAdd" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="660.0" layoutY="24.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #038750;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDisable" cacheShape="false" centerShape="false" contentDisplay="CENTER" layoutX="767.0" layoutY="24.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #F30100;" text="Disable" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

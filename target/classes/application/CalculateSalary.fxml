@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane prefHeight="550.0" prefWidth="747.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="application.CalculateSalaryController">
+   <effect>
+      <DropShadow />
+   </effect>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="229.0" layoutY="31.0" prefHeight="40.0" prefWidth="308.0" style="-fx-font-weight: bold;" text="SALARY CALCULATION" textFill="#068751">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="146.0" text="Salary ID" textFill="#068751">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtSID" layoutX="173.0" layoutY="144.0" />
+            <Label layoutX="414.0" layoutY="146.0" text="Timekeeping ID" textFill="#068751">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="214.0" layoutY="322.0" text="Bonuses" textFill="#068751">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="190.0" layoutY="247.0" text="Allowances" textFill="#068751">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtTID" layoutX="530.0" layoutY="144.0" />
+            <TextField fx:id="txtAllowances" layoutX="322.0" layoutY="245.0" />
+            <TextField fx:id="txtBonuses" layoutX="322.0" layoutY="319.0" />
+            <Label layoutX="214.0" layoutY="398.0" text="Minuses" textFill="#068751">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtMinuses" layoutX="322.0" layoutY="395.0" />
+            <Button fx:id="btnCalculate" alignment="CENTER" layoutX="287.0" layoutY="461.0" mnemonicParsing="false" onAction="#calculateSalary" prefHeight="40.0" prefWidth="192.0" style="-fx-background-color: #068751; -fx-font-weight: bold;" text="Calculate" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

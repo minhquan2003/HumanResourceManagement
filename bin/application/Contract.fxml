@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ContractController">
+   <top>
+      <Pane prefHeight="70.0" prefWidth="900.0" style="-fx-background-color: #068751;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="36.0" layoutY="19.0" text="QVP HRM System" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="630.0" prefWidth="350.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#d9d9d9" layoutX="156.0" layoutY="79.0" radius="65.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Label layoutX="122.0" layoutY="155.0" text="Name" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="133.0" layoutY="186.0" text="Role" textFill="#068650">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Line endX="125.0" fill="#d9d9d9" layoutX="143.0" layoutY="244.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="3.0" />
+            <Pane layoutX="76.0" layoutY="308.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" onMousePressed="#RecruitmentScreen" text="Recruitment" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="350.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" onMousePressed="#EmployeeScreen" text="Employee" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="391.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #068751;">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" text="Contract" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="432.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" onMousePressed="#DepartmentScreen" text="Department" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="265.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="17.0" layoutY="4.0" onMousePressed="#MainMenuScreen" text="Main Menu" textFill="#068751">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="473.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="1.0" onMousePressed="#TimekeepingScreen" text="Timekeeping" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="514.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" onMousePressed="#Salary_BonusScreen" text="Salary &amp; Bonus" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="555.0" prefHeight="34.0" prefWidth="228.0" style="-fx-background-color: #d9d9d9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" onMousePressed="#AccountScreen" text="Account" textFill="#068650">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="282.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="325.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="367.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Circle fill="#068650" layoutX="59.0" layoutY="408.0" radius="26.0" stroke="#068650" strokeType="INSIDE" />
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="449.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="490.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="531.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+            <Circle fill="#d9d9d9" layoutX="59.0" layoutY="572.0" radius="26.0" stroke="#d9d9d9" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableViewHOPDONGLAODONG" layoutX="65.0" layoutY="88.0" onMousePressed="#initialize" prefHeight="507.0" prefWidth="739.0">
+              <columns>
+                <TableColumn fx:id="maHopDong" prefWidth="100.0" text="Contract ID" />
+                <TableColumn fx:id="tuNgay" prefWidth="120.0" text="From Date" />
+                  <TableColumn fx:id="denNgay" prefWidth="120.0" text="To Date" />
+                  <TableColumn fx:id="loaiHopDong" prefWidth="165.0" text="Type of Contarct" />
+                  <TableColumn fx:id="luongCoBan" prefWidth="119.0" text="Base Salary" />
+                  <TableColumn fx:id="moTa" prefWidth="111.0" text="Note" />
+              </columns>
+            </TableView>
+            <Label layoutX="105.0" layoutY="45.0" text="Contract" textFill="#068650">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="301.0" layoutY="48.0" prefWidth="150.0" promptText="sssss" />
+            <Button layoutX="519.0" layoutY="46.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="78.0" style="-fx-background-color: #109e4b;" styleClass="btnGreen" text="Search" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
